@@ -30,13 +30,12 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-  
-ALLOWED_HOSTS = ['.herokuapp.com','localhost',
+ALLOWED_HOSTS = ['.herokuapp.com', 'localhost',
                  '127.0.0.1',]
 
 
 # Application definition
-                             
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -52,7 +51,7 @@ INSTALLED_APPS = [
     'crispy_bootstrap5',
     'django_summernote',
     'blog',
-    'about',
+    'about'
 ]
 
 SITE_ID = 1
@@ -133,6 +132,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 ACCOUNT_EMAIL_VERIFICATION = 'none'
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
